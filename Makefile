@@ -2,8 +2,9 @@ INS = iffont.ins
 DTX = iffont.dtx
 STY = iffont.sty
 PDF = iffont.pdf
+MD = README.md
 
-CTAN_CONTENT = $(INS) $(DTX) $(PDF)
+CTAN_CONTENT = $(INS) $(DTX) $(PDF) $(MD)
 
 TEXMFHOME = $(shell kpsewhich -var-value=TEXMFHOME)
 INSTALL_DIR = $(TEXMFHOME)/tex/latex/iffont
